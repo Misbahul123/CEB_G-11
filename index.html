@@ -10,6 +10,23 @@
     <title>G#11 Dev Official - Jasa Pembuatan Website</title>
 </head>
 <body>
+   <!--header--->
+   <header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <img src="assets/logo.png">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about" onclick="return smoothScroll('about')">Tentang Kami</a></li>
+            <li><a href="#contact" onclick="return smoothScroll('contact')">Hubungi Kami</a></li>
+            <li><a href="#team" onclick="return smoothScroll('team')">Team</a></li>
+        </ul>
+    </nav>
+</header>
     <!--Header-->
     <!--Top Wrapper-->
     <div class="top-wrapper">
@@ -59,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div id="hubungi"class="contact-wrapper">
+    <div id="contact"class="contact-wrapper">
       <div class="container">
         <div class="message">
           <h2>Hubungi kami untuk mendapatkan seperti apapun kebutuhan website Anda</h2>
@@ -70,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div id="tim" class="team-wrapper">
+    <div id="team" class="team-wrapper">
       <div class="container">
         <div class="heading">
           <h2>Our G#11-Dev Best Team</h2>
@@ -130,6 +147,9 @@
         </div>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
 </body>
 
 </html>
