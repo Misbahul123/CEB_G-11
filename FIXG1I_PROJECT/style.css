@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* font-family: sans-serif; */
+    font-family: 'Nunito', sans-serif;
+	/*font-weight: normal;*/
+	/* max-width: 100% !important; */
+}
+
+body {
+	margin: 0;
+	font-family: "Lucida Grande"
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*contact-wrapper*/
+.contact-wrapper {
+	text-align: center;
+	width: 100%;
+	background-color: rgba(46, 134, 222,1.0);
+}
+.message {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.email {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.whatsapp {
+  background-color: #449414;
+  transition: 0.5s;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.email{
+  box-shadow: 0 5px #8a8a89
+}
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.btn:hover {
+  opacity: 1;
+}
+.whatsapp:hover{
+  box-shadow: 0 5px #8a8a89
+}
+.fa {
+  margin-right: 5px;
+}
+/* end contact wrapper */
+/* contact responsive */
+@media all and (max-width: 670px) {
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+/* end contact responsive */
