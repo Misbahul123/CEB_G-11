@@ -32,6 +32,8 @@ nav {
   height: 80px;  
   width: 100%;
   background-color: rgb(97, 135, 238);   
+  position: fixed;
+  z-index: 9999000;
 }
 
 nav img{
@@ -82,7 +84,7 @@ label #cancel {
 }
 
 .container {
-    width: 1170px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -98,11 +100,18 @@ label #cancel {
     background-size: cover;
 }
 
-.top-wrapper h1 {
+.top-wrapper h1{
     font-size: 45px;
     letter-spacing: 3px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.left-wrapper{
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 p {
@@ -302,6 +311,12 @@ footer p {
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .left-wrapper span{
+    font-size: 15px;
+    /* letter-spacing: 3px; */
+    /* margin-bottom: 10px; */
+    text-align: left;
+}
   nav{
     position: fixed;
     z-index: 999999;
@@ -309,6 +324,7 @@ footer p {
   nav img {
     left: 8%;
    }
+
   .btn {
     width: 100%;
     margin-bottom: 10px;
