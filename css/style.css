@@ -98,7 +98,7 @@ label #cancel {
   padding-left: 50px;
   padding-right: 50px;
   color: white;
-  background-image: url("top.png");
+  background-image: url("resize_top.png");
   background-size: cover;
   opacity: 0.9;
 }
